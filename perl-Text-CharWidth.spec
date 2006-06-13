@@ -40,4 +40,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Text/CharWidth.pm
 %{perl_vendorarch}/auto/Text/CharWidth
-%{_mandir}/man[13]/*
+%{_mandir}/man3/*
