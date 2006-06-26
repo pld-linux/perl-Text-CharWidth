@@ -29,7 +29,8 @@ wcswidth(3). Udostêpnia tak¿e funkcjê odpowiadaj±c± mblen(3).
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-%{__make}
+%{__make} \
+	OPTIMIZE="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -44,5 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorarch}/Text/CharWidth.pm
-%{perl_vendorarch}/auto/Text/CharWidth
+%dir %{perl_vendorarch}/auto/Text/CharWidth
+%{perl_vendorarch}/auto/Text/CharWidth/CharWidth.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Text/CharWidth/CharWidth.so
 %{_mandir}/man3/*
