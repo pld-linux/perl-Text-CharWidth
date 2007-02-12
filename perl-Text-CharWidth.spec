@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	CharWidth
 Summary:	Text::CharWidth - Get number of occupied columns of a string on terminal
-Summary(pl):	Text::CharWidth - obliczanie liczby kolumn zajmowanych przez ³añcuch na terminalu
+Summary(pl.UTF-8):   Text::CharWidth - obliczanie liczby kolumn zajmowanych przez Å‚aÅ„cuch na terminalu
 Name:		perl-Text-CharWidth
 Version:	0.04
 Release:	1
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a module to provide equivalent feature as wcwidth(3) and
 wcswidth(3). This also provides mblen(3) equivalent subroutine.
 
-%description -l pl
-Ten modu³ udostêpnia funkcjonalno¶æ odpowiadaj±c± wcwidth(3) i
-wcswidth(3). Udostêpnia tak¿e funkcjê odpowiadaj±c± mblen(3).
+%description -l pl.UTF-8
+Ten moduÅ‚ udostÄ™pnia funkcjonalnoÅ›Ä‡ odpowiadajÄ…cÄ… wcwidth(3) i
+wcswidth(3). UdostÄ™pnia takÅ¼e funkcjÄ™ odpowiadajÄ…cÄ… mblen(3).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
