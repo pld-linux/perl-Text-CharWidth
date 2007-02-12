@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	CharWidth
 Summary:	Text::CharWidth - Get number of occupied columns of a string on terminal
-Summary(pl.UTF-8):   Text::CharWidth - obliczanie liczby kolumn zajmowanych przez łańcuch na terminalu
+Summary(pl.UTF-8):	Text::CharWidth - obliczanie liczby kolumn zajmowanych przez łańcuch na terminalu
 Name:		perl-Text-CharWidth
 Version:	0.04
 Release:	1
