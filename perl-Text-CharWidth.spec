@@ -34,6 +34,7 @@ wcswidth(3). Udostępnia także funkcję odpowiadającą mblen(3).
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
