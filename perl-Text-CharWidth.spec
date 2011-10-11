@@ -9,7 +9,7 @@ Summary:	Text::CharWidth - Get number of occupied columns of a string on termina
 Summary(pl.UTF-8):	Text::CharWidth - obliczanie liczby kolumn zajmowanych przez łańcuch na terminalu
 Name:		perl-Text-CharWidth
 Version:	0.04
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
