@@ -54,6 +54,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Text/CharWidth.pm
 %dir %{perl_vendorarch}/auto/Text/CharWidth
-%{perl_vendorarch}/auto/Text/CharWidth/CharWidth.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Text/CharWidth/CharWidth.so
 %{_mandir}/man3/*
