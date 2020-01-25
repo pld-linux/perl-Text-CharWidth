@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Text
 %define		pnam	CharWidth
 Summary:	Text::CharWidth - Get number of occupied columns of a string on terminal
