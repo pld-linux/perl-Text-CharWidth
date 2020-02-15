@@ -17,6 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{version}.t
 URL:		http://search.cpan.org/dist/Text-CharWidth/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -54,4 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Text/CharWidth.pm
 %dir %{perl_vendorarch}/auto/Text/CharWidth
 %attr(755,root,root) %{perl_vendorarch}/auto/Text/CharWidth/CharWidth.so
-%{_mandir}/man3/*
+%{_mandir}/man3/Text::CharWidth.3pm*
